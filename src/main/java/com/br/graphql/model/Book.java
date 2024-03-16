@@ -3,7 +3,9 @@ package com.br.graphql.model;
 import java.util.Arrays;
 import java.util.List;
 
-public record Book(Long id, String title, String text, String cacategory,  Long authorId) {
+public record Book(Long id, String title, String text, String category,  Long authorId) {
+	
+	 
 	
 	
 	 private static List<Book> books = Arrays.asList(
