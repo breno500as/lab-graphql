@@ -11,13 +11,13 @@ import com.br.graphql.model.Author;
 public class AuthorController {
 	
 	
-	 /*chamada:
+	 /*exemplo chamada:
 		query {
           getAuthors { 
           id,
           name,
          thumbnail
-      }
+       }
      } */
 	
 
